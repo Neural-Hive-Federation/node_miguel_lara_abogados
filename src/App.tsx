@@ -57,7 +57,7 @@ const App = () => {
               Miguel Lara Abogados
             </h2>
             <a
-              href="https://wa.me/?text=Hola! Vengo desde su sitio web."
+              href="https://wa.me/573226125511?text=Hola! Vengo desde su sitio web."
               target="_blank"
               rel="noopener noreferrer"
               className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded"

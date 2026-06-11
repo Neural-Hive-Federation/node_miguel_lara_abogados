@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { MessageSquare, X, Shield, Zap, Database } from 'lucide-react';
 
-const SalesAdvisorWidget = () => {
+export const SalesAdvisorWidget = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (

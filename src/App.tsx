@@ -460,30 +460,30 @@ export default function App() {
       </section>
 
       {/* --- BOLETÍN JURÍDICO / NEURAL FEED --- */}
-      <section id="blog" className="py-24 bg-white text-gray-900">
+      <section id="blog" className="py-24 bg-navy border-t border-b border-white/5 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <p className="text-gold font-bold text-xs tracking-[3px] uppercase mb-3">TU BLOG</p>
-            <h2 className="font-display font-bold text-3xl sm:text-4xl text-navy mb-4">Últimas Noticias</h2>
+            <h2 className="font-display font-bold text-3xl sm:text-4xl text-white mb-4">Últimas Noticias</h2>
             <div className="w-16 h-0.5 bg-gold mx-auto"></div>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
             <div className="lg:col-span-5">
-              <article className="bg-white border border-gray-200 rounded-2xl shadow-sm overflow-hidden hover:shadow-lg transition-all duration-300">
+              <article className="bg-[#111D32] border border-white/10 rounded-2xl shadow-sm overflow-hidden hover:shadow-lg transition-all duration-300">
                 <div className="aspect-[16/10] overflow-hidden">
                   <img src={blogFeatured} alt="¿Qué hacer si te despiden injustificadamente?" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
                 </div>
                 <div className="p-8">
-                  <div className="flex items-center gap-2 mb-4 text-gray-400">
+                  <div className="flex items-center gap-2 mb-4 text-white/50">
                     <FileText size={14} />
                     <span className="text-xs font-mono">Mayo 15, 2026</span>
                   </div>
-                  <h3 className="font-bold text-xl text-navy mb-3 leading-snug">¿Qué hacer si te despiden injustificadamente?</h3>
-                  <p className="text-sm text-gray-500 leading-relaxed mb-6">
+                  <h3 className="font-bold text-xl text-white mb-3 leading-snug">¿Qué hacer si te despiden injustificadamente?</h3>
+                  <p className="text-sm text-white/70 leading-relaxed mb-6">
                     Si te acaban de despedir y sospechas que fue injustificado, este artículo es para ti. En Cartagena vemos cada semana casos de trabajadores que aceptan liquidaciones mal calculadas o renuncian a sus derechos por desconocimiento.
                   </p>
-                  <a href="https://wa.me/573226125511?text=Hola! Leí su artículo del blog y tengo una consulta sobre despido laboral." target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-gold font-bold text-sm group-hover:gap-2.5 transition-all">
+                  <a href="https://wa.me/573226125511?text=Hola! Leí su artículo del blog y tengo una consulta sobre despido laboral." target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-gold hover:text-gold/80 font-bold text-sm group-hover:gap-2.5 transition-all">
                     Consultar Caso <ArrowRight size={14} />
                   </a>
                 </div>

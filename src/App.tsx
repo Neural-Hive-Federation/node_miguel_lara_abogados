@@ -460,17 +460,17 @@ export default function App() {
       </section>
 
       {/* --- BOLETÍN JURÍDICO / NEURAL FEED --- */}
-      <section id="blog" className="py-24 bg-navy border-t border-b border-white/5 text-white">
+      <section id="blog" className="py-24 bg-white border-t border-b border-gray-100 text-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <p className="text-gold font-bold text-xs tracking-[3px] uppercase mb-3">TU BLOG</p>
-            <h2 className="font-display font-bold text-3xl sm:text-4xl text-white mb-4">Últimas Noticias</h2>
+            <h2 className="font-display font-bold text-3xl sm:text-4xl text-navy mb-4">Últimas Noticias</h2>
             <div className="w-16 h-0.5 bg-gold mx-auto"></div>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
             <div className="lg:col-span-5">
-              <article className="bg-[#111D32] border border-white/10 rounded-2xl shadow-sm overflow-hidden hover:shadow-lg transition-all duration-300">
+              <article className="bg-navy border border-white/10 rounded-2xl shadow-sm overflow-hidden hover:shadow-lg transition-all duration-300">
                 <div className="aspect-[16/10] overflow-hidden">
                   <img src={blogFeatured} alt="¿Qué hacer si te despiden injustificadamente?" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
                 </div>
@@ -490,8 +490,8 @@ export default function App() {
               </article>
             </div>
 
-            {/* Neural Feed (2 artículos de IA) */}
-            <div className="lg:col-span-7">
+            {/* Neural Feed (2 artículos de IA) con contenedor Navy */}
+            <div className="lg:col-span-7 bg-navy border border-white/10 rounded-2xl p-6 shadow-sm">
               <NeuralFeed nodeId="40e60e70-f7a0-447b-89eb-7ebe8a67dfe8" />
             </div>
           </div>
